@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Assignment</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="slideContainer">
+
+        <div class="swiper">
+        
+            <div class="swiper-wrapper">
+              
+              <div class="swiper-slide"><img src="images/chicken.jpg" alt="chicken"></div>
+              <div class="swiper-slide"><img src="images/gizzard.jpg" alt="gizzard"></div>
+              <div class="swiper-slide"><img src="images/veg.jpg" alt="veg"></div>
+              <div class="swiper-slide"><img src="images/pepper.jpg" alt="pepper"></div>
+              <div class="swiper-slide"><img src="images/sauce.jpg" alt="sauce"></div>
+              <div class="swiper-slide"><img src="images/fis.jpg" alt="fish"></div>
+              
+            </div>
+         
+            <div class="swiper-pagination"></div>
+          
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+    </div>
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+</body>
+</html>
