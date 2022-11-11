@@ -1,1 +1,1 @@
-# week7_Image_Slide_Task
+# week seven repo contains files on image slider project
